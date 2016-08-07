@@ -38,8 +38,13 @@ body{
   padding-left: 100px;
   padding-right: 100px;
 }
+.hotSpots2{
+  margin-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 .subHeading{
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 300;
 }
 .hotSpotImage{
@@ -68,3 +73,88 @@ p{
   line-height: 130%;
   font-weight: 300;
 }
+.UIdemo{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  /*background-color: #e8e8e8;*/
+}
+
+.UIdemoheading{
+  font-size: 50px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.uibtn{
+  width: 200px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: white;
+  color: #4fc3f7;
+  border: 2px solid #4fc3f7;
+  font-size: 20px;
+  font-weight: 600;
+}
+.uibtn:hover {
+    background-color: #4fc3f7;
+    color: white;
+    border: 2px solid #4fc3f7;
+}
+
+
+
+/*FOOTER*/
+
+.footer {
+  // position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  // height: 60px;
+  background-color: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+  padding-top: 30px;
+}
+.footer li {
+    list-style: none;
+    padding: 5px 5px 5px 0;
+    font-size: 12px;
+  }
+.social-link-icons  {
+    padding-left: 0;
+  }
+
+.social-link-icons li {
+      display: inline-block;
+      list-style: none;
+      padding: 5px 5px 5px 0;
+      font-size: 24px;
+}
+.footer-logo { padding: 3em 2em; margin: 0 auto;}
+.copy {
+      margin-bottom: 30px;
+      color: #6C6F73;
+      font-size: 13px;
+}
+.site-links {
+      padding-left: 0;
+}
+
+.site-links  li {
+      list-style: none;
+      // display: inline-block;
+      padding: 5px 5px 5px 0;
+      font-size: 12px;
+      color: black;
+}
+.emailID{
+  font-size: 14px;
+}
+.footerLogo{
+  /*float: right;*/
+  width: 40%;
+  height: 40%;
+
+}
+/*FOOTER*/
